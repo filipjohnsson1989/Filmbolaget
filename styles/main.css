@@ -1,6 +1,9 @@
 body {
-    background-color: black;
-    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body a:link {
@@ -12,7 +15,8 @@ body a:visited {
 }
 
 header {
-    background-color: #F4B542;
+    overflow: hidden;
+    background-color: black;
 }
 
 header>img,
@@ -27,6 +31,12 @@ header>img {
 
 header>div {
     margin-left: 15px;
+}
+
+article {
+    clear: both;
+    background-color: black;
+    color: white;
 }
 
 .horizontal-list ul li {
@@ -46,4 +56,22 @@ header>div {
 
 footer {
     height: 50px;
+    background-color: #AD8A56;
+    color: black;
+}
+
+footer p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: 'Cookie', Verdana, Arial, sans-serif;
+    font-weight: normal;
 }
